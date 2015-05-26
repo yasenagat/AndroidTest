@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fragment传递参数，1：通过xml的参数传递；2：通过代码初始化传递"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <FrameLayout
+        android:id="@+id/fl_fromCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <fragment
+        class="com.y.fragment.MyArgumentFromXmlFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:label="从XML设置参数"
+        />
+</LinearLayout>

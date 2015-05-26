@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/bg_color"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="你好世界"
+        android:id="@+id/textView"
+        android:enabled="true"
+        android:textSize="50dp"
+        android:clickable="true"
+        android:textColor="@color/textview_color"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动彩票"/>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="渐变效果"/>
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@drawable/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知"
+        android:id="@+id/notify"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

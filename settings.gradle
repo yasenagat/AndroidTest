@@ -1,0 +1,2 @@
+include ':app', ':VolleyTest', ':ParcelableTest', ':DaggerTest', ':EventBusTest', ':ButterKnifeTest', ':EventBusTest2', ':UsefulCodeTest', ':FragmentTest', ':BallViewTest'
+include ':support4Demos'

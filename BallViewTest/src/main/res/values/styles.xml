@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="BaseActivityTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:launchMode">singleTask</item>
+    </style>
+
+
+    <style name="State_No_Pick_Red">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_red_n</item>
+    </style>
+
+    <style name="State_Pick_Red">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_red</item>
+    </style>
+
+    <style name="State_Dan_Red">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_red</item>
+    </style>
+
+    <style name="State_Ban_Red">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_red_ban_p</item>
+    </style>
+
+    <style name="State_No_Pick_Blue">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_blue_n</item>
+    </style>
+
+    <style name="State_Pick_Blue">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_blue</item>
+    </style>
+
+    <style name="State_Dan_Blue">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_blue</item>
+    </style>
+
+    <style name="State_Ban_Blue">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ball_red_ban_p</item>
+    </style>
+
+</resources>

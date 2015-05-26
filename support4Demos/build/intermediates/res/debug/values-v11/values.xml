@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/D:/workspace_as/YTest/support4Demos/src/main/res/values-v11/styles.xml -->
+    <eat-comment />
+
+    <style name="ThemeDialogWhenLarge" parent="android:style/Theme.Holo.DialogWhenLarge"></style>
+
+    <style name="ThemeHolo" parent="android:Theme.Holo"></style>
+
+    <style name="ThemeHoloLight" parent="android:Theme.Holo.Light"></style>
+
+</resources>

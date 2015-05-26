@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_getCode"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/orange"
+                    android:text="获取选中号码"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_random"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="随机"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_clean"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="清空"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_ban"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="设胆杀号"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_miss"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="遗漏"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_coldhot"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="冷热"/>
+
+            </LinearLayout>
+
+            <com.y.MyGridView
+                android:layout_margin="10dp"
+                android:id="@+id/gv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numColumns="14"
+                android:stretchMode="columnWidth">
+            </com.y.MyGridView>>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_getCode_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/orange"
+                    android:text="获取选中号码"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_random_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="随机"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_clean_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="清空"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_ban_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="设胆杀号"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_miss_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="遗漏"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/btn_coldhot_blue"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:text="冷热"/>
+
+            </LinearLayout>
+
+
+            <com.y.MyGridView
+                android:layout_margin="10dp"
+                android:id="@+id/gv_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numColumns="14"
+                android:stretchMode="columnWidth">
+
+            </com.y.MyGridView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BallViewTest/BallViewTest.iml" filepath="$PROJECT_DIR$/BallViewTest/BallViewTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ButterKnifeTest/ButterKnifeTest.iml" filepath="$PROJECT_DIR$/ButterKnifeTest/ButterKnifeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaggerTest/DaggerTest.iml" filepath="$PROJECT_DIR$/DaggerTest/DaggerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EventBusTest/EventBusTest.iml" filepath="$PROJECT_DIR$/EventBusTest/EventBusTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EventBusTest2/EventBusTest2.iml" filepath="$PROJECT_DIR$/EventBusTest2/EventBusTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentTest/FragmentTest.iml" filepath="$PROJECT_DIR$/FragmentTest/FragmentTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" filepath="$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" filepath="$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolleyTest/VolleyTest.iml" filepath="$PROJECT_DIR$/VolleyTest/VolleyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YTest.iml" filepath="$PROJECT_DIR$/YTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support4Demos/support4Demos.iml" filepath="$PROJECT_DIR$/support4Demos/support4Demos.iml" />
+    </modules>
+  </component>
+</project>
+
