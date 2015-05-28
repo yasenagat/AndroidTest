@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":BallViewTest" />
+        <option name="GRADLE_PROJECT_PATH" value=":ZXingTest" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -81,9 +81,11 @@
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="core-3.2.0" level="project" />
+    <orderEntry type="library" exported="" name="zxing-android-embedded-3.0.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-22.1.1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
-    <orderEntry type="module" module-name="BallView" exported="" />
+    <orderEntry type="library" exported="" name="butterknife-6.1.0" level="project" />
   </component>
 </module>
 

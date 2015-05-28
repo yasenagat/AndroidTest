@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BallView" />
             <option value="$PROJECT_DIR$/BallViewTest" />
             <option value="$PROJECT_DIR$/ButterKnifeTest" />
             <option value="$PROJECT_DIR$/DaggerTest" />
@@ -18,6 +19,7 @@
             <option value="$PROJECT_DIR$/ParcelableTest" />
             <option value="$PROJECT_DIR$/UsefulCodeTest" />
             <option value="$PROJECT_DIR$/VolleyTest" />
+            <option value="$PROJECT_DIR$/ZXingTest" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/support4Demos" />
           </set>

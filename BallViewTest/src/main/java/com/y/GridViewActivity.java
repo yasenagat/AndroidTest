@@ -8,8 +8,11 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.y.adapter.SSQ_BLUD_Adapter;
-import com.y.adapter.SSQ_RED_Adapter;
+
+import com.yasenagat.ballview.MyGridView;
+import com.yasenagat.ballview.adaper.AbstractBallAdapter;
+import com.yasenagat.ballview.adaper.impl.SSQ_BLUD_Adapter;
+import com.yasenagat.ballview.adaper.impl.SSQ_RED_Adapter;
 
 import java.util.HashSet;
 import java.util.List;

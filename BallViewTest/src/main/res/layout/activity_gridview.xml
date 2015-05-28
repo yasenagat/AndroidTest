@@ -52,7 +52,7 @@
                     android:id="@+id/btn_ban"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="@color/orange"
                     android:text="设胆杀号"/>
 
@@ -76,14 +76,14 @@
 
             </LinearLayout>
 
-            <com.y.MyGridView
+            <com.yasenagat.ballview.MyGridView
                 android:layout_margin="10dp"
                 android:id="@+id/gv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:numColumns="14"
                 android:stretchMode="columnWidth">
-            </com.y.MyGridView>>
+            </com.yasenagat.ballview.MyGridView>>
 
 
             <LinearLayout
@@ -123,7 +123,7 @@
                     android:id="@+id/btn_ban_blue"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="@color/orange"
                     android:text="设胆杀号"/>
 
@@ -148,15 +148,14 @@
             </LinearLayout>
 
 
-            <com.y.MyGridView
+            <com.yasenagat.ballview.MyGridView
                 android:layout_margin="10dp"
                 android:id="@+id/gv_blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:numColumns="14"
                 android:stretchMode="columnWidth">
-
-            </com.y.MyGridView>
+            </com.yasenagat.ballview.MyGridView>
 
         </LinearLayout>
     </ScrollView>
