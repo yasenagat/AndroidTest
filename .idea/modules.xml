@@ -5,11 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/BallView/BallView.iml" filepath="$PROJECT_DIR$/BallView/BallView.iml" />
       <module fileurl="file://$PROJECT_DIR$/BallViewTest/BallViewTest.iml" filepath="$PROJECT_DIR$/BallViewTest/BallViewTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ButterKnifeTest/ButterKnifeTest.iml" filepath="$PROJECT_DIR$/ButterKnifeTest/ButterKnifeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChartViewTest/ChartViewTest.iml" filepath="$PROJECT_DIR$/ChartViewTest/ChartViewTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/DaggerTest/DaggerTest.iml" filepath="$PROJECT_DIR$/DaggerTest/DaggerTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/EventBusTest/EventBusTest.iml" filepath="$PROJECT_DIR$/EventBusTest/EventBusTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/EventBusTest2/EventBusTest2.iml" filepath="$PROJECT_DIR$/EventBusTest2/EventBusTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentTest/FragmentTest.iml" filepath="$PROJECT_DIR$/FragmentTest/FragmentTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ICCardTest/ICCardTest.iml" filepath="$PROJECT_DIR$/ICCardTest/ICCardTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" filepath="$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PicTest/PicTest.iml" filepath="$PROJECT_DIR$/PicTest/PicTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" filepath="$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/VolleyTest/VolleyTest.iml" filepath="$PROJECT_DIR$/VolleyTest/VolleyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/YTest.iml" filepath="$PROJECT_DIR$/YTest.iml" />

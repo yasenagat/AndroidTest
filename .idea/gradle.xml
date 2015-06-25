@@ -12,11 +12,14 @@
             <option value="$PROJECT_DIR$/BallView" />
             <option value="$PROJECT_DIR$/BallViewTest" />
             <option value="$PROJECT_DIR$/ButterKnifeTest" />
+            <option value="$PROJECT_DIR$/ChartViewTest" />
             <option value="$PROJECT_DIR$/DaggerTest" />
             <option value="$PROJECT_DIR$/EventBusTest" />
             <option value="$PROJECT_DIR$/EventBusTest2" />
             <option value="$PROJECT_DIR$/FragmentTest" />
+            <option value="$PROJECT_DIR$/ICCardTest" />
             <option value="$PROJECT_DIR$/ParcelableTest" />
+            <option value="$PROJECT_DIR$/PicTest" />
             <option value="$PROJECT_DIR$/UsefulCodeTest" />
             <option value="$PROJECT_DIR$/VolleyTest" />
             <option value="$PROJECT_DIR$/ZXingTest" />

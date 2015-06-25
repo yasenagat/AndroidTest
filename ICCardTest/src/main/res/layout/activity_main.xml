@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_zd_btn_open"
+        android:id="@+id/btn_open"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:onClick="btn_open_Click"
+        android:textStyle="normal|bold|italic"
+        android:textColorHighlight="#fffffd46" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_zd_btn_close"
+        android:id="@+id/btn_close"
+        android:layout_alignTop="@+id/btn_open"
+        android:layout_toEndOf="@+id/btn_open"
+        android:onClick="btn_close_Click" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_zd_btn_read"
+        android:id="@+id/btn_read"
+        android:layout_alignTop="@+id/btn_close"
+        android:layout_toEndOf="@+id/btn_close"
+        android:onClick="btn_read_Click" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_zd_btn_send"
+        android:id="@+id/btn_send"
+        android:layout_alignBottom="@+id/btn_read"
+        android:layout_toEndOf="@+id/btn_read"
+        android:onClick="btn_send_Click" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_logs"
+        android:layout_below="@+id/btn_open"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="top"
+        android:autoText="false"
+        android:background="#ffffa743" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/cy_zd_tv_com"
+        android:id="@+id/tv_com"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/btn_open"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/et_com"
+        android:layout_alignBottom="@+id/tv_com"
+        android:layout_toEndOf="@+id/btn_open"
+        android:text="@string/cy_zd_et_com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/cy_zd_et_data"
+        android:id="@+id/tv_data"
+        android:layout_alignTop="@+id/tv_com"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="34dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/et_data"
+        android:layout_alignTop="@+id/et_com"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="44dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_zd_btn_clear"
+        android:id="@+id/btn_clear"
+        android:onClick="btn_clear_Click"
+        android:layout_alignBottom="@+id/btn_send"
+        android:layout_toEndOf="@+id/btn_send" />
+
+    <WebView
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/web_v"
+        android:layout_alignBottom="@+id/et_logs"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
