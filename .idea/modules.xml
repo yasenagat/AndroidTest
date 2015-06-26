@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/ICCardTest/ICCardTest.iml" filepath="$PROJECT_DIR$/ICCardTest/ICCardTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" filepath="$PROJECT_DIR$/ParcelableTest/ParcelableTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/PicTest/PicTest.iml" filepath="$PROJECT_DIR$/PicTest/PicTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicketTest/TicketTest.iml" filepath="$PROJECT_DIR$/TicketTest/TicketTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" filepath="$PROJECT_DIR$/UsefulCodeTest/UsefulCodeTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/VolleyTest/VolleyTest.iml" filepath="$PROJECT_DIR$/VolleyTest/VolleyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/YTest.iml" filepath="$PROJECT_DIR$/YTest.iml" />

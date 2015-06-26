@@ -1,2 +1,2 @@
-include ':app', ':VolleyTest', ':ParcelableTest', ':DaggerTest', ':EventBusTest', ':ButterKnifeTest', ':EventBusTest2', ':UsefulCodeTest', ':FragmentTest', ':BallViewTest', ':BallView', ':ZXingTest', ':ChartViewTest', ':PicTest', ':ICCardTest'
+include ':app', ':VolleyTest', ':ParcelableTest', ':DaggerTest', ':EventBusTest', ':ButterKnifeTest', ':EventBusTest2', ':UsefulCodeTest', ':FragmentTest', ':BallViewTest', ':BallView', ':ZXingTest', ':ChartViewTest', ':PicTest', ':ICCardTest', ':TicketTest'
 include ':support4Demos'
